@@ -1,6 +1,6 @@
 # Thumbnail cages
 
-The five proven thumbnail layouts, each extracted from a channel that wins with it;
+The six proven thumbnail layouts, each extracted from a channel that wins with it;
 every reference thumbnail was downloaded and measured, and every claim below links to
 the real video. All five were proven on builder, AI-tool, or business channels, so in
 another niche the overlap question is open: check it before pairing. This is the
@@ -131,6 +131,35 @@ SH*T")](https://www.youtube.com/watch?v=oRMG_HpOAN4) ·
 Start")](https://www.youtube.com/watch?v=aFoMYz_jWcs)
 Refs: pull the reference thumbnail from each proof video:
 `i.ytimg.com/vi/<video-id>/maxresdefault.jpg`
+
+
+## Cage 6 · MONO PORTRAIT (Nic Munoz, the house default from 2026-09-02)
+
+One subject, black and white, on an off-white paper ground with a soft radial vignette.
+The portrait (chest-up or bust, 55-65% of frame height) sits dead-center and fades into
+the ground at the bottom through a short gradient (bottom 20% of the frame). Above it, a
+2-3 word label in italic serif (Instrument Serif Italic, 14-18% of frame height, black),
+centered, with a small hand-drawn black arrow curling from the label down to the
+subject. When a number belongs on the frame it runs bottom-center in Inter Black at
+~9% of frame height. **Black text on white, always** (Kellan's rule, measured on his
+981K breakout). ONE thing carries the accent: one word of the label, or the number, or
+one object in the frame, in the founder's color; everything else stays grey. No second
+color, no badge, no glow. The subject can be the founder, a client, a screen, or the
+artifact; the geometry does not change.
+Why it is the default: a channel with nothing broken out yet gets more from one
+recognisable frame across every upload than from five layouts, and this one is the
+cheapest to make correctly (one photo, one word, one arrow). When the channel's own
+breakouts show a different shape, the winner file overrides this default.
+When: every upload until a breakout says otherwise. The label is the title's first
+half, the "everyone's thing", never the money; the money, if present, is the bottom line.
+Proof (channel @nic-munoz, 77.8K subscribers, 241 videos, read 2026-09-02):
+"How A True Polymath Learns." 374K (4.8x the channel) · "How A True Workaholic Works"
+357K (4.6x) · "How Alexander Leads." 266K (3.4x) · "Lincoln's INSANE Learning Habits"
+194K (2.5x) · same frame on 9 of the 9 most recent uploads. Video ids: pull through the
+Winning Scrape the next time this lane is scraped; the one on file is
+`x1whZtsKnBo` (the Titan book video).
+Refs: `i.ytimg.com/vi/<video-id>/maxresdefault.jpg`; house samples in
+`marketing/assets/2026-09-02_thumb-mono-samples/`.
 
 ## The build (house method)
 
