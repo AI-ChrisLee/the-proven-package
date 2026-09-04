@@ -9,13 +9,17 @@ You are the packaging agent. Views are decided before a second of video plays, b
 title and the thumbnail, so this skill spends real care there and nowhere else. Your
 work in one line: **take this week's winner file and the lane's proven shapes, and turn
 them into three title-plus-thumbnail pairs the founder locks.** All three pairs SHIP,
-and here is the honest mechanism: YouTube's Test & Compare tests up to three
-THUMBNAILS, so the three thumbnails fill the test's three slots. The main title goes
-on the video; the two sub titles are swap stock for a later CTR swap or a repackage.
-Test & Compare needs YouTube Partner Program eligibility: not eligible yet means ship
-the main pair, hold the other two, and swap the thumbnail by hand after 7 days,
-reading the change against this channel's own trailing median (the REPACKAGE math
-below). The build is three pairs either way; only the upload instruction changes.
+and here is the honest mechanism: YouTube's Test & Compare tests up to three TITLES,
+three THUMBNAILS, or three of both together on one video, and it decides on WATCH
+TIME, not click rate. So the three pairs are the test's three slots, title and
+thumbnail together, and the founder starts that test in Studio at upload. It needs no
+Partner Program and no monetization: advanced features enabled on the channel, a
+desktop browser, and a public long-form video (an archived live stream or a podcast
+episode counts). Shorts, scheduled lives, un-converted Premieres, private,
+made-for-kids and 18+ videos cannot be tested; a video on that list ships the main
+pair and holds the two subs for a hand swap, read against this channel's own trailing
+median (the REPACKAGE math below). The build is three pairs either way; only the
+upload instruction changes.
 Packaging comes FIRST: the default entry runs before a word of script exists, and the
 script is then written to the locked promise. "Recorded" enters only through
 REPACKAGE below.
@@ -195,10 +199,16 @@ tab and pastes them, plus the view counts of their last 10 long-form uploads fro
 the Content tab; no Sunday Score card is required. When no card exists, the trailing
 median is computed here the way the Winning Scrape computes a channel baseline (its
 baseline-exclusion rules included: comparable long-form uploads only, the judged
-video excluded, bought-reach spikes excluded) over those last 10 uploads. Under ~10
+video excluded, bought-reach spikes excluded) over those last 10 uploads. At 8 or 9
 comparable uploads, say so and use the median of what exists, flagged as the weaker
-read; under 4 uploads, decline the repackage, because there is no baseline yet: wait
-for impressions rather than re-facing a video on noise. CTR is
+read. **Under 8 comparable long-form uploads, print `baseline uncomputable, N uploads`
+and decline the repackage:** there is no distribution for a video to be under yet. That
+is the Winning Scrape's own floor and it applies to the founder's own channel too.
+**A window that straddles 2026-08-24 is the same refusal:** print `baseline uncomputable,
+window straddles 2026-08-24` and decline, because YouTube changed what it counts as a
+view on that date and a median across it mixes two definitions of the word. Refuse
+rather than label: a caveat printed next to a number does not stop a founder re-facing
+a video on noise, and waiting costs nothing. CTR is
 judged only past an impressions floor of ~500: under ~500 impressions the CTR is
 noise, wait, and say how many more impressions the video needs. No fresh winner
 file is needed; the existing packaging is the draft.
@@ -282,14 +292,15 @@ takes the latest `<date>-package.md`.
 The laws and cages live in the founder's cage file (item 4's path). The build order:
 
 1. **Pair.** First, the niche precondition: check whether any cage's proving channel
-   sits in this founder's niche. The five shipped cages were all proven on builder,
-   AI-tool, or business channels, so in a different niche none of them has won in
+   sits in this founder's niche. Cages 1 to 5 were proven on builder, AI-tool or
+   business channels and cage 6 on a history-and-biography channel, so in a different
+   niche none of them has won in
    front of this buyer. When none does, distill 1-2 cages from the thumbnails the
    Winning Scrape kept in `squad/week/thumbs/<winner-date>/src/` for this lane's
    ranked survivors (the winner file's own date, which is not this run's date whenever
    the package runs a day or more after the hunt; the folder holds the top 8-12, and the
    winner file says how many). Distill under the cage file's grow rule, each new cage
-   carrying its proof link, and pair from those first; the shipped five are then the
+   carrying its proof link, and pair from those first; the shipped six are then the
    fallback, not the default. Folder gone (an older week, a cleaned repo): re-download
    the survivors from the ranked candidate table the Winning Scrape folded into the
    winner file, `i.ytimg.com/vi/<id>/hqdefault.jpg` per row (the id off the row's URL),
@@ -392,8 +403,9 @@ On the default entry, `squad/week/<date>-package.md` (REPACKAGE writes
 `<date>-repackage.md` instead, per that section): the three locked pairs in a table,
 every claim's receipt named, the five-check sheet, the build log (which cage, which
 model, what each revision changed), and the revision variants: whatever unpicked
-images the revision rounds actually produced, kept for a CTR swap. (The swap stock is
-the two sub TITLES; the revision variants are IMAGES.) Revision variants are a
+images the revision rounds actually produced, kept for a CTR swap. (The two sub pairs
+are the test's other two slots, not spares; the revision variants are spare IMAGES.)
+Revision variants are a
 byproduct, never a reason to generate extra images; when nothing was left over, write
 "none." After the pairs lock, the package file also names which locked images the
 Waterfall may re-crop or re-title as community-post thumbnail variants: making those
@@ -416,6 +428,15 @@ roots file = the episodes root is `squad/episodes/`; the first run names `ep01`,
 every later run the next number after the highest existing `epNN` folder. The
 thumbnail files sit in `squad/week/thumbs/<date>/` (the run's date, so weekly
 runs never overwrite each other), finals plus 1280x720 upload copies.
+
+**The TEST line, one line, right under the three pairs.** The package file is what the
+founder has open at upload, weeks after this run, so it carries the instruction there:
+"Upload with the main pair, then Studio > Test & Compare > add all 3 pairs, title and
+thumbnail together. YouTube decides on watch time and answers in a few days to 2
+weeks." When the video is one Test & Compare excludes (a Short, a scheduled live, an
+un-converted Premiere, private, made-for-kids, 18+), or the channel has no advanced
+features yet, the line says that instead: ship the main pair, hold the two subs, and
+swap by hand after 7 days against this channel's own trailing median.
 
 **A package file already sitting there, marked title-only.** The Payoff Script writes
 one when it runs first with nothing but a locked title, so this run ADOPTS it rather

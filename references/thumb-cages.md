@@ -2,8 +2,9 @@
 
 The six proven thumbnail layouts, each extracted from a channel that wins with it;
 every reference thumbnail was downloaded and measured, and every claim below links to
-the real video. All five were proven on builder, AI-tool, or business channels, so in
-another niche the overlap question is open: check it before pairing. This is the
+the real video. Cages 1 to 5 were proven on builder, AI-tool or business channels and
+cage 6 on a history-and-biography channel, so in another niche the overlap question is
+open: check it before pairing. This is the
 skill's shipped copy: the first run seeds it to the roots file's thumb-cages path
 (default `squad/thumb-cages.md`), and from there the founder grows it. **This file
 grows:** when a weekly winner file shows a layout not in here, or when no cage's
