@@ -74,16 +74,14 @@ ask again.
    layouts (seeded from this skill's `references/thumb-cages.md` on first run). Cage
    geometry is authoritative; the laws govern whatever a cage does not specify. A
    grown cage file already sitting at that path is read, never re-seeded over.
-5. `squad/credibility-bank.md`, the only legal source for any number or claim. Its
-   PROOF-ASSET LIST section names the real screenshots a thumbnail may show; LOSSES
-   feed hooks and honesty beats, never claims. **Missing bank = STOP:** run the bank
-   conversation from the-winning-offer's step 9 (THE BANK) before beat 1; when that
-   skill is not installed, run the interview here. The founder's stated receipts,
-   interviewed now in their own words, ARE the bank; write the file with the six
-   canonical sections (WINS with mechanisms, LOSSES, NEVER-LIST, CLIENT RESULTS,
-   PROOF-ASSET LIST, VOICE NOTES), then proceed. A bank that exists but lacks any of
-   the six canonical sections triggers the same interview for the absent sections
-   only, before beat 1.
+5. `squad/credibility-bank.md`, when the founder already has one, is the legal
+   source for a number or a claim. Its PROOF-ASSET LIST section names the real
+   screenshots a thumbnail may show; LOSSES feed hooks and honesty beats, never
+   claims. **No such file is normal, and it never stops a run.** The founder's own
+   stated receipts are the source instead: ask for them in one question before beat
+   1 (the wins with how each happened, what they refuse to do, and which screenshots
+   are real and safe to show), confirm each is sayable as written, and reach past
+   none of them. Never write that file here; no skill in the kit builds it.
 6. `squad/face/`, the founder's face refs. The convention is `face-01` to `face-04`
    (jpg or png), but when the folder holds image files under other names, read them
    anyway; off-spec names are not an empty folder. 2 is the floor, 3+ angles is the
@@ -192,11 +190,11 @@ REPACKAGE path, which can skip beat 1, the same ask happens before beat 2.
 ## The second entry: REPACKAGE (the flops path)
 
 When a published video runs under the channel's own trailing median after 48-72 hours,
-the Sunday Score proposes a repackage and this skill executes it. Input: the published
+the Sunday read (c6) proposes a repackage and this skill executes it. Input: the published
 video's URL plus its numbers (views, impressions, CTR, and the channel's trailing
 median). The founder reads views, impressions, and CTR from YouTube Studio's Reach
 tab and pastes them, plus the view counts of their last 10 long-form uploads from
-the Content tab; no Sunday Score card is required. When no card exists, the trailing
+the Content tab; no saved read is required. When none exists, the trailing
 median is computed here the way the Winning Scrape computes a channel baseline (its
 baseline-exclusion rules included: comparable long-form uploads only, the judged
 video excluded, bought-reach spikes excluded) over those last 10 uploads. At 8 or 9
