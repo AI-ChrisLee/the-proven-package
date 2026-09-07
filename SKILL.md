@@ -1,6 +1,6 @@
 ---
 name: the-proven-package
-description: Use this when a video needs its public face, the titles and thumbnails. The default entry runs BEFORE a word of script exists (the script is written to a locked promise); the second entry, REPACKAGE, takes a published video that flopped and gives the same cut a new face. Run it when the founder says "run the proven package," a winner file is ready, or a published video's numbers came in under the channel's own baseline. It clones the shapes your lane already proved, pairs each title with a proven thumbnail cage, builds the images in layers with your real face, and stops for your review at every decision a human owns. Nothing invented, every number a receipt.
+description: Use this when a video needs its public face, the titles and thumbnails. The default entry runs BEFORE a word of script exists (the script is written to a locked promise); the second entry, REPACKAGE, takes a published video that flopped and gives the same cut a new face. Run it when the founder says "run the proven package," a winner file is ready, they say "repackage that video" with its link and its numbers because it came in under what the channel usually gets, or a Test & Compare finished and they say "pair N won" (or "the main pair won") with the video's title or episode. It clones the shapes your lane already proved, pairs each title with a proven thumbnail cage, builds the images in layers with your real face, and stops for your review at every decision a human owns. Nothing invented, every number a receipt.
 ---
 
 # The Proven Package
@@ -38,7 +38,7 @@ before cloning any shape.
 ## What you read first (in this order)
 
 Before the list: resolve the workspace from `.claude/squad-roots.md`, created by the
-install lesson and filled from the-winning-offer (module 1) onward. Its fields:
+install lesson and filled from the Winning Offer (/the-winning-offer) onward. Its fields:
 founder name · brand words (product word + banned synonyms) · accent color · lane ·
 week · episodes · credibility-bank · face · thumb-cages · voice file · wpm (110
 default) · data sources · tools (the research mode this repo has). Every `squad/` path
@@ -161,6 +161,14 @@ ask again.
    other tooling. Any beat-3 tool failure after two attempts routes into DEGRADED
    MODE the same way.
 
+## The modes, and how they are called
+
+| Mode | The founder says | Beats |
+|---|---|---|
+| package (the default) | "run the proven package", or a winner file is ready | 1 to 7: three title-plus-thumbnail pairs, locked, into `<date>-package.md` |
+| repackage | "repackage that video" with its link and its numbers | 2 to 7 on the published cut, one new pair into `<date>-repackage.md`; beat 1 runs once only when no original title survives the five checks |
+| your own winners | "pair N won" or "the main pair won", with the video's title or episode | no beat: one row under `## Your own winners` in `squad/lane.md`, then stop |
+
 ## The run map (where you run, where you STOP)
 
 | Beat | Mode |
@@ -187,10 +195,26 @@ each once for the session, and get one yes. With that yes, beats 3-5 run unbroke
 declined permission is stated plainly as a gap in the run, never worked around. On the
 REPACKAGE path, which can skip beat 1, the same ask happens before beat 2.
 
+**Resuming.** On any entry the rule keys on the OUTPUTS, never on a session's memory. Check
+them in this order and continue at the first one missing or incomplete.
+
+| Missing or incomplete | Resume at |
+|---|---|
+| no `squad/week/<date>-winner.md` | stop: the founder runs the-winning-scrape first |
+| the winner file exists and no `<date>-package.md` names it as `source winner:` | beat 1 |
+| a `<date>-package.md` marked title-only | adopt it, keep its two header lines, run beats 1 to 7 |
+| a package file with pairs not yet built, or images missing from `squad/week/thumbs/<date>/` | beat 2 for those pairs |
+| the images built and the pairs not yet locked | beat 6 |
+| three pairs locked in the package file | done: print the close line |
+| a `<date>-repackage.md` opened with the video's URL and its pair not confirmed | beat 6 on that pair |
+| that pair confirmed | done |
+| "pair N won" said and `squad/lane.md` holds no `## Your own winners` row for that episode | the one write |
+| that row already stands | done: print the row back, write nothing |
+
 ## The second entry: REPACKAGE (the flops path)
 
 When a published video runs under the channel's own trailing median after 48-72 hours,
-the Sunday read (c6) proposes a repackage and this skill executes it. Input: the published
+this entry gives the same cut a new face. Input: the published
 video's URL plus its numbers (views, impressions, CTR, and the channel's trailing
 median). The founder reads views, impressions, and CTR from YouTube Studio's Reach
 tab and pastes them, plus the view counts of their last 10 long-form uploads from
@@ -223,8 +247,30 @@ beats 2-7.
 **The repackage writes its own file:** `squad/week/<date>-repackage.md`, one pair,
 opening with a header line naming the published video URL it replaces. No `epNN`
 folder is created, since the cut already shipped, and beat 7's gate confirms the one
-pair rather than three. A repackage file is never the Payoff Script's input: that run
+pair rather than three. A repackage file is never the Money Driven Script's input: that run
 takes the latest `<date>-package.md`.
+
+## The third entry: YOUR OWN WINNERS (the Sunday write)
+
+When YouTube's Test & Compare has picked a winner and the founder says which pair it
+was ("pair 2 won", "the main pair won", with the video's title or its episode folder),
+this entry writes one row and stops. Find the episode's package file (the
+`<date>-package.md` whose `episode:` line names that folder, or whose main title
+matches the title the founder gave), take the pair they named, and append one row
+under a `## Your own winners` heading in `squad/lane.md`. The heading, and the one
+table under it, are created on the first such row. The row's five cells:
+
+    date · episode · title shape · thumbnail cage · numbers
+
+The title shape is the skeleton the winning title was cloned from, with the swapped
+slot marked in square brackets, so next week can clone it again. The thumbnail cage is
+the cage the winning image was built on, by its name in the founder's cage file. The
+numbers are what the founder reported, written as given (views, watch time, whatever
+Studio showed them); nothing reported, write "none reported". Nothing is generated,
+nothing else in the lane file moves, and the finished row prints back to the founder.
+A pair the package file does not hold, or a title matching no package, is one question
+back to the founder, never a guess. This is the row the c6 lesson asks for on Sunday; from
+the second week on, beat 1 reads it first.
 
 ## Titles (beat 1)
 
@@ -242,6 +288,13 @@ takes the latest `<date>-package.md`.
   excluded), rank on that, say which shapes were ranked cold this way, and write the
   multiple, its baseline, and today's date back into `squad/lane.md` so next week reads
   them instead of measuring again.
+  **Your own winners outrank the borrowed shapes.** Week 1 every pair is a clone of a
+  shape another channel proved. From the second week on, when `squad/lane.md` carries
+  rows under "Your own winners", the newest of those shapes that passes the fit gate is
+  the main pair's shape, ahead of every borrowed shape whatever its multiple, and the
+  borrowed shapes fill the subs. The run says so in one print line: "Main pair on your
+  own winner from <episode>; the borrowed shapes fill the subs." No own-winner row yet,
+  or none passing the gate, and the borrowed ranking above stands.
   The subs are two alternate-angle titles on two different shapes, not two rewordings of
   the main. All three ship as the platform test's slots.
 - **DRESS-branch drafts.** When the winner file carries DRESS title candidates the
@@ -405,10 +458,7 @@ images the revision rounds actually produced, kept for a CTR swap. (The two sub 
 are the test's other two slots, not spares; the revision variants are spare IMAGES.)
 Revision variants are a
 byproduct, never a reason to generate extra images; when nothing was left over, write
-"none." After the pairs lock, the package file also names which locked images the
-Waterfall may re-crop or re-title as community-post thumbnail variants: making those
-variants is the Waterfall's job from the locked finals, and this skill never generates
-spares for it.
+"none."
 
 The file opens with the two join lines the whole chain keys on, both required,
 verbatim as its first two header lines:
@@ -436,7 +486,7 @@ un-converted Premiere, private, made-for-kids, 18+), or the channel has no advan
 features yet, the line says that instead: ship the main pair, hold the two subs, and
 swap by hand after 7 days against this channel's own trailing median.
 
-**A package file already sitting there, marked title-only.** The Payoff Script writes
+**A package file already sitting there, marked title-only.** The Money Driven Script writes
 one when it runs first with nothing but a locked title, so this run ADOPTS it rather
 than working beside it: overwrite that file in place with the full package, keep its
 `episode:` and `source winner:` lines exactly as they read, and drop the title-only
@@ -446,20 +496,16 @@ two package files for one episode.
 Description, chapters, and tags are NOT this skill's job: chapters need the finished
 cut, so they belong to the publish step.
 
-Then close, word for word: "Packaged. Writing it is the Payoff Script's job. Run
-/the-payoff-script."
-
-
 ## Hand over
 
 The three pairs are locked and the package file names its episode folder and
-its source winner. The script is the Payoff Script's job: it reads this
+its source winner. The script is the Money Driven Script's job: it reads this
 package's main title and writes the hook to it, word for word. Run
-`/the-payoff-script`. Not installed yet? Say so plainly and hand the founder
+`/the-money-driven-script`. Not installed yet? Say so plainly and hand the founder
 the locked main title, since the hook is written to that promise either way.
 
-Close, word for word: "Packaged. Writing it is the Payoff Script's job. Run
-/the-payoff-script. This skill stops here."
+Close, word for word: "Packaged. Writing it is the Money Driven Script's job. Run
+/the-money-driven-script. This skill stops here."
 
 ## Rules
 

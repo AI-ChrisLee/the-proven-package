@@ -34,6 +34,11 @@ your browser, and changes exactly what you name. Then you say lock.
 Already published a video that came in under your own median? Say **"repackage that
 video"** with its link and its numbers, and the same cut gets one new pair.
 
+Test & Compare picked a winner? Say **"pair 2 won"** (or "the main pair won") with the
+video's title or episode. The winning title shape and thumbnail cage go into your lane
+file under "Your own winners", and from the second week on those shapes come first when
+the main pair is picked, ahead of the borrowed ones.
+
 ## What you get
 
 `squad/week/<date>-package.md`: the 3 locked pairs, the receipt behind every claim, the
