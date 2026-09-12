@@ -1,171 +1,523 @@
 ---
 name: the-proven-package
-description: Use this when a video needs its title and its thumbnail, before a word of script exists. The founder says "run the proven package" with this week's winner file ready, "repackage that video" with its link and its numbers when a published video came in under what the channel usually gets, or "pair N won" ("pair 2 won", "the main pair won") with the video's title after a Test & Compare finished. It hands back 3 title-plus-thumbnail pairs to lock. Nothing invented, every number a receipt.
+description: Use this when a video needs its public face, the titles and thumbnails. The default entry runs BEFORE a word of script exists (the script is written to a locked promise); the second entry, REPACKAGE, takes a published video that flopped and gives the same cut a new face. Run it when the founder says "run the proven package," a winner file is ready, they say "repackage that video" with its link and its numbers because it came in under what the channel usually gets, or a Test & Compare finished and they say "pair N won" (or "the main pair won") with the video's title or episode. It clones the shapes your lane already proved, pairs each title with a proven thumbnail cage, builds the images in layers with your real face, and stops for your review at every decision a human owns. Nothing invented, every number a receipt.
 ---
 
 # The Proven Package
 
-**Take this week's winner file and the shapes the lane already proved, and hand the founder 3 title-plus-thumbnail pairs to lock, before a word of script exists.**
+You are the packaging agent. Views are decided before a second of video plays, by the
+title and the thumbnail, so this skill spends real care there and nowhere else. Your
+work in one line: **take this week's winner file and the lane's proven shapes, and turn
+them into three title-plus-thumbnail pairs the founder locks.** All three pairs SHIP,
+and here is the honest mechanism: YouTube's Test & Compare tests up to three TITLES,
+three THUMBNAILS, or three of both together on one video, and it decides on WATCH
+TIME, not click rate. So the three pairs are the test's three slots, title and
+thumbnail together, and the founder starts that test in Studio at upload. It needs no
+Partner Program and no monetization: advanced features enabled on the channel, a
+desktop browser, and a public long-form video (an archived live stream or a podcast
+episode counts). Shorts, scheduled lives, un-converted Premieres, private,
+made-for-kids and 18+ videos cannot be tested; a video on that list ships the main
+pair and holds the two subs for a hand swap, read against this channel's own trailing
+median (the REPACKAGE math below). The build is three pairs either way; only the
+upload instruction changes.
+Packaging comes FIRST: the default entry runs before a word of script exists, and the
+script is then written to the locked promise. "Recorded" enters only through
+REPACKAGE below.
 
-On a fresh run the first message carries this line once:
+Everything runs inside THIS founder's own `squad/` workspace. Never borrow another
+brand's lane, shapes, or accent color; if this founder's thumb-cages file does not
+exist yet, seed it from this skill's shipped copy at `references/thumb-cages.md`.
+On that first seed, take the accent color from the roots file when it names one, else
+read it off `squad/business.md`'s BRAND line (the Winning Offer writes it there); with
+neither, ask the founder for their ONE color and write it back to the roots file.
+Either way it goes into their cage copy's law 5: the shipped file's #146ef5 is the
+source repo's example, never this founder's default.
+And if `squad/lane.md` does not exist, send the founder to run the-winning-scrape
+before cloning any shape.
 
-> This skill is a base. Once you have done it your way, tell your squad "update the skill to do it like this."
+## What you read first (in this order)
 
-**Never.** It never uploads, never publishes, never posts, never schedules. It never invents a number, a claim or a quote: every number in a title is a receipt the founder gave. It never generates a proof surface. It never writes `squad/credibility-bank.md`. It never improves a shape it cloned.
+Before the list: resolve the workspace from `.claude/squad-roots.md`, created by the
+install lesson and filled from the Winning Offer (/the-winning-offer) onward. Its fields:
+founder name · brand words (product word + banned synonyms) · accent color · lane ·
+week · episodes · credibility-bank · face · thumb-cages · voice file · wpm (110
+default) · data sources · tools (the research mode this repo has). Every `squad/` path
+below resolves through it, thumb-cages and the data sources included. A repo carrying
+the legacy `.claude/spine-roots.md` keeps working: read it as the fallback when no
+squad-roots.md exists. Missing both, the paths below are the defaults. Never
+re-interview for a field the roots file already answers, and write back any field
+this run learns (the accent color, the episodes root) so next week's run does not
+ask again.
 
-Everything runs in THIS founder's own `squad/` workspace. Never borrow another brand's lane, shapes or accent color. Paths resolve from `.claude/squad-roots.md` (the legacy `.claude/spine-roots.md` is the fallback; with neither, the defaults below stand). Never re-ask a field the roots file answers, and write back what this run learns, like the accent color and the episodes root. No `squad/lane.md` = stop: the founder runs the-winning-scrape first.
+1. `squad/week/<latest>-winner.md`, the handoff from the Winning Scrape. **On the
+   default entry, no winner file in `squad/week/` = STOP:** send the founder to run
+   the-winning-scrape first. REPACKAGE skips this item; its draft is the published
+   video's existing packaging.
+   A winner file older than 7 days: confirm with the founder before packaging it; the
+   hunt is weekly. If the winner is a competitor's video (not this channel's own
+   breakout), say so in the package file as an external reference. If its comment
+   mining holds fewer than 3 distinct buyer complaints, flag the file as thin before
+   wording anything from it. A winner file carrying a re-pull flag
+   (transcript-not-comments, description-not-transcript) routes that section back to
+   the-winning-scrape's approved pull, done before anything is worded from it.
+2. `squad/lane.md`, the standing shapes. A shape is usable only when the file carries
+   its full skeleton text AND its proving niche overlaps this founder's audience.
+   A multiple with no skeleton is not a shape; ask, never guess one. When an older
+   lane file lacks a shape's proving niche, read it off the linked proof video before
+   judging overlap.
+3. `squad/business.md`, the offer document from the Winning Offer. The document's WHO drives
+   the shape-overlap test in item 4, and its SENTENCE and MODEL give the founder's
+   real verbs for beat 1's fit gate. Its BRAND line names the founder's accent color,
+   the one the cage file's law 5 needs. No document = ask the founder for their audience and
+   their real verbs in one question, note the document as absent, and continue.
+4. The roots file's thumb-cages path (default `squad/thumb-cages.md`), the thumbnail
+   layouts (seeded from this skill's `references/thumb-cages.md` on first run). Cage
+   geometry is authoritative; the laws govern whatever a cage does not specify. A
+   grown cage file already sitting at that path is read, never re-seeded over.
+5. `squad/credibility-bank.md`, when the founder already has one, is the legal
+   source for a number or a claim. Its PROOF-ASSET LIST section names the real
+   screenshots a thumbnail may show; LOSSES feed hooks and honesty beats, never
+   claims. **No such file is normal, and it never stops a run.** The founder's own
+   stated receipts are the source instead: ask for them in one question before beat
+   1 (the wins with how each happened, what they refuse to do, and which screenshots
+   are real and safe to show), confirm each is sayable as written, and reach past
+   none of them. Never write that file here; no skill in the kit builds it.
+6. `squad/face/`, the founder's face refs. The convention is `face-01` to `face-04`
+   (jpg or png), but when the folder holds image files under other names, read them
+   anyway; off-spec names are not an empty folder. 2 is the floor, 3+ angles is the
+   standard. Exactly one file = a degraded warning: proceed on the cheap tier and
+   tell the founder to expect a regeneration. **Missing or empty folder:** this run
+   owns the setup, because this is where the photos are first used. Create
+   `squad/face/` yourself, open it for the founder (macOS `open`, Windows `explorer`,
+   Linux `xdg-open`), and ask once ("drop 2-4 face photos in there and say go, or say
+   face-free"), then offer to rename whatever lands there to the `face-01` scheme; the
+   founder never renames files by hand. Only after that ask does every pair run a
+   no-face layout (Cage 3, or a cage's no-face fallback). Never strip a face cage into
+   an undocumented layout.
+7. The image tool, checked BEFORE any promise about beat 3. The execution path is the
+   fal image endpoints: `fal-ai/bytedance/seedream/v4.5/edit` (the default tier) and
+   `fal-ai/gemini-3-pro-image-preview/edit` (Nano Banana Pro, the quality tier). The
+   credential is `FAL_KEY` in this repo's `.env`, written there by the install. The
+   shell does not read `.env` on its own, so every call carrying the key loads it
+   first, this check and both beat-3 calls alike:
 
-## What it reads
+   ```
+   set -a; . ./.env; set +a
+   ```
 
-1. `squad/week/<latest>-winner.md`, from the Winning Scrape. **No winner file = STOP:** the founder runs the-winning-scrape first. Say a thin or flagged file out loud before taking a word from it (under 3 distinct buyer complaints, a re-pull flag, a competitor's video rather than this channel's own). Repackage skips this item.
-2. `squad/lane.md`, the standing shapes. A shape is usable only when the file carries its full skeleton text AND its proving niche overlaps this founder's audience. A multiple with no skeleton is not a shape; ask, never guess one.
-3. `squad/business.md`, the offer document. WHO drives the overlap test, SENTENCE and MODEL give the founder's real verbs for the fit gate, BRAND names the accent color. No document: ask for the audience and the real verbs in one question and continue.
-4. The cage file, the roots file's thumb-cages path, default `squad/thumb-cages.md`. Not there: seed it from this skill's `references/thumb-cages.md`, accent color from the roots file, else the BRAND line, else ask the founder for their ONE color and write it back. The shipped file's #146ef5 is the source repo's example, never this founder's default. A grown cage file at that path is read, never re-seeded. Cage geometry is authoritative.
-5. `squad/credibility-bank.md`, the legal source for a number or a claim. **No such file is normal, and it never stops a run.** Ask instead, in one question: the wins with how each happened, what they refuse to do, which screenshots are real and safe to show. Never write that file here.
-6. `squad/face/`, 2 photos the floor, read the image files that are there whatever they are named. **Missing or empty:** create the folder, open it for the founder, and ask once, "drop 2-4 face photos in there and say go, or say face-free". Only then does every pair run a no-face layout (Cage 3, or a cage's no-face fallback).
-7. The image key, `FAL_KEY` in this repo's `.env`. Run the free auth check under Base before the titles stop; no key is the bootstrap ask, made here, not after the yes.
+   (or `FAL_KEY=$(grep -m1 '^FAL_KEY=' .env | cut -d= -f2-)` when `.env` holds lines
+   the shell cannot source). Then verify before beat 3 with this free auth check
+   (nothing is generated, nothing billed):
 
-## The 3 entries
+   ```
+   set -a; . ./.env; set +a
+   curl -s -o /dev/null -w "%{http_code}" -X POST \
+     https://fal.run/fal-ai/bytedance/seedream/v4.5/edit \
+     -H "Authorization: Key $FAL_KEY" -H "Content-Type: application/json" -d '{}'
+   ```
 
-| The founder says | What runs |
+   Check the variable is non-empty before reading the code, because an empty
+   `FAL_KEY` reads as a bad key at the endpoint: empty after the load means the load
+   failed or the install never wrote the key, which is the bootstrap ask below, not a
+   bad key. With a non-empty key: `422` = the key works (the empty body fails
+   validation before anything is queued or billed). `401` = the key itself is bad.
+   `404` = the endpoint id has moved; look up the current edit endpoint on
+   fal.ai/models, correct it here, and re-check.
+
+   The beat-3 calls are the same shape, with the payload in a FILE. Never inline it:
+   a face ref carried as a data URI blows past the shell's argument limit (about 1 MB
+   of argv on macOS) and curl dies with "argument list too long". One worked example
+   per endpoint:
+
+   ```
+   set -a; . ./.env; set +a
+   curl -s -X POST https://fal.run/fal-ai/bytedance/seedream/v4.5/edit \
+     -H "Authorization: Key $FAL_KEY" -H "Content-Type: application/json" \
+     -d @squad/week/thumbs/<date>/payload.json
+   ```
+
+   ```
+   set -a; . ./.env; set +a
+   curl -s -X POST https://fal.run/fal-ai/gemini-3-pro-image-preview/edit \
+     -H "Authorization: Key $FAL_KEY" -H "Content-Type: application/json" \
+     -d @squad/week/thumbs/<date>/payload.json
+   ```
+
+   The payload file, written by a script rather than by hand, holds `{"prompt": "<the
+   base prompt>", "image_urls": ["<face ref>", "<cage reference>"], "image_size":
+   {"width": 1280, "height": 720}}`. Each `image_urls` entry is a public URL or a
+   local file inlined as a data URI (`data:image/jpeg;base64,...`); fal's storage
+   upload works too. Downscale each face ref to 1024px on its long edge before
+   encoding (`sips -Z 1024 squad/face/face-01.jpg` on macOS, any equivalent
+   elsewhere): a phone photo is 2-4 MB and base64 inflates it by another third, and
+   nothing above 1024px shows at 1280x720. The response
+   JSON's `images[0].url` is the base image; download it into the run's thumbs
+   folder. **No key found:** one bootstrap ask before anything degrades: the founder
+   creates a free fal.ai account, copies a key from fal.ai/dashboard/keys, and
+   pastes it here; save it to `.env` as `FAL_KEY` and continue. Only when that too
+   fails, **DEGRADED MODE:** deliver the locked titles plus a complete written
+   composite spec per pair (cage, base-image prompt, element sizes in percent of
+   frame, exact text layer), each pair marked blocked-on-tooling. Never improvise
+   other tooling. Any beat-3 tool failure after two attempts routes into DEGRADED
+   MODE the same way.
+
+## The modes, and how they are called
+
+| Mode | The founder says | Beats |
+|---|---|---|
+| package (the default) | "run the proven package", or a winner file is ready | 1 to 7: three title-plus-thumbnail pairs, locked, into `<date>-package.md` |
+| repackage | "repackage that video" with its link and its numbers | 2 to 7 on the published cut, one new pair into `<date>-repackage.md`; beat 1 runs once only when no original title survives the five checks |
+| your own winners | "pair N won" or "the main pair won", with the video's title or episode | no beat: one row under `## Your own winners` in `squad/lane.md`, then stop |
+
+## The run map (where you run, where you STOP)
+
+| Beat | Mode |
 |---|---|
-| "run the proven package", or a winner file is ready | the whole run: 3 pairs into `squad/week/<date>-package.md` |
-| "repackage that video" with its link and its numbers | the run minus the titles: 1 new pair into `squad/week/<date>-repackage.md` |
-| "pair N won", "pair 2 won", "the main pair won", with the title or the episode | one row into `squad/lane.md`, then stop |
+| 1 TITLES | AUTO: three shape clones (1 main + 2 subs, each its own pair) with the five-check sheet, then **STOP · GATE: the voice pass plus the one ask; the founder edits and locks all three** |
+| 2 PAIR | AUTO: one cage per locked title, three different cages |
+| 3 BASES | AUTO: generate the image bases, no words in any image |
+| 4 TYPE | AUTO: composite the mechanical layers in code, then the text layers |
+| 5 CHECK | AUTO: the 320px mobile grid + side-by-side against each cage's reference |
+| 6 REVIEW | **STOP · GATE: the founder's notes on the pairs; change exactly what the founder names** (repeat 2-6 as routed until they lock) |
+| 7 PACKAGE | Write the package file, then **STOP · GATE: final confirm of the three pairs** |
 
-**Resuming keys on the outputs, never on what a session remembers.** No winner file: stop. No package file naming that winner: start at the titles. Images built and not locked: the review sheet. 3 pairs locked: done.
+A beat-1 edit that changes a title's CLAIM or mechanism re-runs that pair from beat 2.
+A wording-only edit flows into the type layer and touches nothing else.
 
-## Titles
+**The one ask (at the beat-1 gate).** Beats 3-5 spend the founder's money, install
+tooling, and reach new hosts, so everything they need is confirmed in the single yes
+at the gate that already stops. Say it together with the titles: the expected image
+cost, the fal endpoint the auth check verified, the one-time `python3 -m venv .venv &&
+.venv/bin/pip install pillow`, and the one-time font fetch. Name the permission kinds
+in the same breath (fal.run POSTs, the font fetch from github.com, `i.ytimg.com`
+thumbnail downloads, the venv install and the shell commands around it), say allow
+each once for the session, and get one yes. With that yes, beats 3-5 run unbroken. A
+declined permission is stated plainly as a gap in the run, never worked around. On the
+REPACKAGE path, which can skip beat 1, the same ask happens before beat 2.
 
-- Every title clones a usable lane shape: the skeleton stays fixed, exactly one slot swaps to carry this video's content. Never invent a narrative shape.
-- **1 main and 2 subs.** The main carries the winner file's core claim on the strongest usable shape after the fit gate, the highest proving multiple, ties broken by niche overlap. Rank on the multiple written in `squad/lane.md`, never recompute one. A shape with no multiple is one question back to the founder. From week 2, rows under "Your own winners" outrank every borrowed shape whatever its multiple: the newest that passes the fit gate takes the main pair, and the borrowed shapes fill the subs.
-- The subs are 2 alternate-angle titles on 2 different shapes, never the main reworded. All 3 ship as the platform test's slots. DRESS candidates the founder already voice-passed at the scrape's gate enter as the drafts; lane shapes fill only what is missing to reach 3.
-- **Fit gate.** A shape qualifies only when its verb matches what the founder actually does (build, sell, review, teach, train, coach), its structural needs exist (a guest format needs a real guest, a dollar skeleton needs a dollar receipt), and its point of view survives the swap (a "He Makes..." shape goes first person, or gets skipped). Note every skip. Under 3 survivors, one shape may carry 2 titles with 2 different claims.
-- **Slot filling.** A number slot of ANY unit ($, lbs, days, %, count) takes a receipt whose unit matches the claim: per-deal fills per-deal, aggregate fills aggregate, and the 2 never mix. `[Claim]` slots take the receipt's MECHANISM first, the niche second, never an invented hook. An unresolved slot BLOCKS that title, never a placeholder, and backfills onto the next shape the receipts CAN fill; with none left the package ships with fewer than 3 pairs, said plainly in the package file.
-- With `squad/offer-research.md` there, check every title's words against its allowed-words section, and a word the market never says gets swapped for one it does.
+**Resuming.** On any entry the rule keys on the OUTPUTS, never on a session's memory. Check
+them in this order and continue at the first one missing or incomplete.
 
-**The 5 checks.** Every title carries a pass or fail on each, here and again on the review sheet.
+| Missing or incomplete | Resume at |
+|---|---|
+| no `squad/week/<date>-winner.md` | stop: the founder runs the-winning-scrape first |
+| the winner file exists and no `<date>-package.md` names it as `source winner:` | beat 1 |
+| a `<date>-package.md` marked title-only | adopt it, keep its two header lines, run beats 1 to 7 |
+| a package file with pairs not yet built, or images missing from `squad/week/thumbs/<date>/` | beat 2 for those pairs |
+| the images built and the pairs not yet locked | beat 6 |
+| three pairs locked in the package file | done: print the close line |
+| a `<date>-repackage.md` opened with the video's URL and its pair not confirmed | beat 6 on that pair |
+| that pair confirmed | done |
+| "pair N won" said and `squad/lane.md` holds no `## Your own winners` row for that episode | the one write |
+| that row already stands | done: print the row back, write nothing |
 
-1. TRANSACTION: the back half names the outcome, what someone got or paid, in any unit the receipts cover, never a topic.
-2. JAGGED PAST / ROUND FUTURE: a real past number prints jagged ($77,675), a promise prints round.
-3. STEAL: every shape is stolen from a linked proven winner, never invented.
-4. ONE UNIT: one claim, one unit; per-deal never mixes with aggregate.
-5. MOBILE READ: the first 4 words carry the claim. Read every title at 320px before passing it.
+## The second entry: REPACKAGE (the flops path)
 
-**The titles stop.** Print the 3 titles with their 5 checks, and in the same message the one ask: the image cost (3 pairs land under $1), the fal key the auth check already verified, the one-time `python3 -m venv .venv && .venv/bin/pip install pillow`, and the one-time font fetch. The founder changes any word that does not sound like them, and their edit wins over the shape when the 2 fight. One yes and the build runs to the review sheet without stopping again (on the repackage path that ask comes before pairing). An edit that changes a CLAIM or mechanism re-runs that pair from Pair; a wording-only edit flows into the type layer.
+When a published video runs under the channel's own trailing median after 48-72 hours,
+this entry gives the same cut a new face. Input: the published
+video's URL plus its numbers (views, impressions, CTR, and the channel's trailing
+median). The founder reads views, impressions, and CTR from YouTube Studio's Reach
+tab and pastes them, plus the view counts of their last 10 long-form uploads from
+the Content tab; no saved read is required. When none exists, the trailing
+median is computed here the way the Winning Scrape computes a channel baseline (its
+baseline-exclusion rules included: comparable long-form uploads only, the judged
+video excluded, bought-reach spikes excluded) over those last 10 uploads. At 8 or 9
+comparable uploads, say so and use the median of what exists, flagged as the weaker
+read. **Under 8 comparable long-form uploads, print `baseline uncomputable, N uploads`
+and decline the repackage:** there is no distribution for a video to be under yet. That
+is the Winning Scrape's own floor and it applies to the founder's own channel too.
+**A window that straddles 2026-08-24 is the same refusal:** print `baseline uncomputable,
+window straddles 2026-08-24` and decline, because YouTube changed what it counts as a
+view on that date and a median across it mixes two definitions of the word. Refuse
+rather than label: a caveat printed next to a number does not stop a founder re-facing
+a video on noise, and waiting costs nothing. CTR is
+judged only past an impressions floor of ~500: under ~500 impressions the CTR is
+noise, wait, and say how many more impressions the video needs. No fresh winner
+file is needed; the existing packaging is the draft.
+The run: show the trigger math first (the video's multiple against the channel's own
+median), rerun the five checks on the EXISTING title and thumbnail and name which ones it
+fails, then build one new pair on the same cut through beats 2-7. This is also where
+SMALL-CHANNEL CTR CALIBRATION runs, as the sixth check: judge the published CTR
+against this channel's own baseline, never the absolute CTR of giant channels. The
+sub titles from
+the original package are the first candidates. When no original title survives the
+five checks, run beat 1 once on the current lane shapes (with its gate) before
+beats 2-7.
 
-## Thumbnails
+**The repackage writes its own file:** `squad/week/<date>-repackage.md`, one pair,
+opening with a header line naming the published video URL it replaces. No `epNN`
+folder is created, since the cut already shipped, and beat 7's gate confirms the one
+pair rather than three. A repackage file is never the Money Driven Script's input: that run
+takes the latest `<date>-package.md`.
 
-The laws and the cages live in the founder's cage file.
+## The third entry: YOUR OWN WINNERS (the Sunday write)
 
-**Pair.** Check whether any cage's proving channel sits in this founder's niche. Cages 1 to 5 were proven on builder, AI-tool and business channels, cage 6 on history and biography. When none does, distill 1 or 2 cages under the cage file's grow rule from the thumbnails the Winning Scrape kept in `squad/week/thumbs/<winner-date>/src/` (the winner file's own date, not this run's), each new cage carrying its proof link, and pair from those first; the shipped 6 are then the fallback, not the default.
+When YouTube's Test & Compare has picked a winner and the founder says which pair it
+was ("pair 2 won", "the main pair won", with the video's title or its episode folder),
+this entry writes one row and stops. Find the episode's package file (the
+`<date>-package.md` whose `episode:` line names that folder, or whose main title
+matches the title the founder gave), take the pair they named, and append one row
+under a `## Your own winners` heading in `squad/lane.md`. The heading, and the one
+table under it, are created on the first such row. The row's five cells:
 
-Match each claim to a cage's mechanism: a method claim takes the annotated chart, a receipt claim a proof cage, a blunt one-liner the quote card. 3 different cages is the target, not a gate: 2 claims on one cage sends the second to that cage's nearest neighbour by mechanism, noted in the build log. A described thumbnail matching no cage is distilled into a new cage first. Never force a claim into a mismatched cage.
+    date · episode · title shape · thumbnail cage · numbers
 
-A receipt-only claim can honestly go face-free; process and authority claims keep the founder's face. Proof that cannot be shown verbatim is a redacted REAL UI, names blurred and the real chrome kept, never a painted scene. **Consent:** a proof asset showing an identifiable person who is not the founder is not composited without the founder confirming written release for public use. Unconfirmed is blocked-on-assets, never blurred and shipped.
+The title shape is the skeleton the winning title was cloned from, with the swapped
+slot marked in square brackets, so next week can clone it again. The thumbnail cage is
+the cage the winning image was built on, by its name in the founder's cage file. The
+numbers are what the founder reported, written as given (views, watch time, whatever
+Studio showed them); nothing reported, write "none reported". Nothing is generated,
+nothing else in the lane file moves, and the finished row prints back to the founder.
+A pair the package file does not hold, or a title matching no package, is one question
+back to the founder, never a guess. This is the row the c6 lesson asks for on Sunday; from
+the second week on, beat 1 reads it first.
 
-**Base.** The endpoints are `fal-ai/bytedance/seedream/v4.5/edit` (the default tier) and `fal-ai/gemini-3-pro-image-preview/edit` (Nano Banana Pro, the quality tier). The key is `FAL_KEY` in this repo's `.env`, which the shell does not read on its own, so every call loads it first. An empty key after the load is no key, the bootstrap ask, not a bad key. Free auth check, nothing generated, nothing billed:
+## Titles (beat 1)
 
-```
-set -a; . ./.env; set +a
-curl -s -o /dev/null -w "%{http_code}" -X POST \
-  https://fal.run/fal-ai/bytedance/seedream/v4.5/edit \
-  -H "Authorization: Key $FAL_KEY" -H "Content-Type: application/json" -d '{}'
-```
+- Every title is a clone of a usable lane shape: the skeleton stays fixed, exactly one
+  slot swaps to carry this video's content. Never invent a narrative shape.
+- **1 main + 2 subs, defined.** The main is one primary-claim title: the winner file's
+  core claim on the strongest usable shape (strongest = the usable shape with the
+  highest proving multiple after the fit gate, ties broken by niche overlap). The lane
+  file carries each shape's multiple with the baseline it was measured against and the
+  date measured; the Winning Scrape measured them at RANK, so rank on what is written
+  and never recompute it. Cold-ranking is the fallback for a shape
+  written before that field existed: pull the proof video's views and its channel's
+  baseline the way the Winning Scrape does (the channel RSS feed for the last ~15
+  uploads, the median of the comparable long-form ones, the proof video itself
+  excluded), rank on that, say which shapes were ranked cold this way, and write the
+  multiple, its baseline, and today's date back into `squad/lane.md` so next week reads
+  them instead of measuring again.
+  **Your own winners outrank the borrowed shapes.** Week 1 every pair is a clone of a
+  shape another channel proved. From the second week on, when `squad/lane.md` carries
+  rows under "Your own winners", the newest of those shapes that passes the fit gate is
+  the main pair's shape, ahead of every borrowed shape whatever its multiple, and the
+  borrowed shapes fill the subs. The run says so in one print line: "Main pair on your
+  own winner from <episode>; the borrowed shapes fill the subs." No own-winner row yet,
+  or none passing the gate, and the borrowed ranking above stands.
+  The subs are two alternate-angle titles on two different shapes, not two rewordings of
+  the main. All three ship as the platform test's slots.
+- **DRESS-branch drafts.** When the winner file carries DRESS title candidates the
+  founder already voice-passed at the scrape's gate, they enter beat 1 as the drafts;
+  clone from lane shapes only what is missing to reach three. Never silently discard
+  a title the founder already approved.
+- **Fit gate before cloning.** A shape qualifies only if: its verb matches what the
+  founder actually does (build / sell / review / teach / train / coach: the founder's
+  real verbs); its structural needs exist (a guest format needs a real guest, a dollar
+  skeleton needs a dollar receipt); its point of view survives the swap (a
+  third-person shape like "He Makes..." becomes first person for the founder's own
+  video, or gets skipped). A shape that fails the gate is skipped and the skip is
+  noted. When fewer than three shapes survive the gate, a shape may carry two titles
+  with different slot content; the two are still different claims, not rewordings.
+- **Slot filling.** A number slot of ANY unit ($, lbs, days, %, count) takes a bank
+  receipt whose unit matches the claim: a per-deal number fills a per-deal slot, an
+  aggregate fills an aggregate claim, and mixing the two is the cherry-picking the
+  audience punishes. Non-dollar slots follow the same receipt-and-unit rule as dollar
+  slots. `[Claim]` slots take the receipt's MECHANISM first (the how), the niche
+  second, never an invented hook.
+- A title with an unresolved number slot is BLOCKED, not shippable: it stops at the
+  gate with the ask, and never proceeds to pairing as a placeholder. Its slot
+  backfills onto the next usable shape whose slots the bank CAN fill; only when no
+  receipt-fillable shape is left does the package ship with fewer than three pairs,
+  said plainly in the package file.
+- **The five checks.** Every title carries a pass/fail sheet at the gate, and the same
+  five pass/fail checks print again on beat 6's review sheet:
+  1. TRANSACTION: the back half names the outcome, what someone got or paid, in
+     any unit the bank can receipt, never a topic.
+  2. JAGGED PAST / ROUND FUTURE: a real past number prints jagged ($77,675), a
+     promise prints round.
+  3. STEAL: every shape is stolen from a linked proven winner, never invented.
+  4. ONE UNIT: one claim, one unit; per-deal never mixes with aggregate.
+  5. MOBILE READ: the title's first four words carry the claim, because a phone feed
+     truncates the rest; read every title at 320px before passing it. (SMALL-CHANNEL
+     CTR CALIBRATION is not on this sheet. A title has no CTR before it publishes, so
+     that check runs at REPACKAGE, where a real number exists.)
+- **Wording check.** When `squad/offer-research.md` exists, check every title's words
+  against its allowed-words section; a word the market never says gets swapped for
+  one it does.
+- The founder changes any word in a title that does not sound like
+  them. The founder's edit wins over the shape when the two fight.
 
-`422` = the key works, the empty body failing validation before anything is billed. `401` = the key itself is bad. `404` = the endpoint id moved; find the current edit endpoint on fal.ai/models and correct it here. **No key:** one bootstrap ask. The founder creates a free fal.ai account, copies a key from fal.ai/dashboard/keys, and pastes it here; save it to `.env` as `FAL_KEY` and continue. **DEGRADED MODE**, when that fails too or a tool failure repeats twice: the locked titles plus a complete written composite spec per pair (cage, base prompt, element sizes in percent of frame, exact text layer), each marked blocked-on-tooling. Never improvise other tooling.
+## Thumbnails (beats 2-5)
 
-The generate call is that same shape with the payload in a FILE, never inlined, because a face ref carried as a data URI blows past the shell's argument limit and curl dies with "argument list too long":
+The laws and cages live in the founder's cage file (item 4's path). The build order:
 
-```
-set -a; . ./.env; set +a
-curl -s -X POST https://fal.run/fal-ai/bytedance/seedream/v4.5/edit \
-  -H "Authorization: Key $FAL_KEY" -H "Content-Type: application/json" \
-  -d @squad/week/thumbs/<date>/payload.json
-```
+1. **Pair.** First, the niche precondition: check whether any cage's proving channel
+   sits in this founder's niche. Cages 1 to 5 were proven on builder, AI-tool or
+   business channels and cage 6 on a history-and-biography channel, so in a different
+   niche none of them has won in
+   front of this buyer. When none does, distill 1-2 cages from the thumbnails the
+   Winning Scrape kept in `squad/week/thumbs/<winner-date>/src/` for this lane's
+   ranked survivors (the winner file's own date, which is not this run's date whenever
+   the package runs a day or more after the hunt; the folder holds the top 8-12, and the
+   winner file says how many). Distill under the cage file's grow rule, each new cage
+   carrying its proof link, and pair from those first; the shipped six are then the
+   fallback, not the default. Folder gone (an older week, a cleaned repo): re-download
+   the survivors from the ranked candidate table the Winning Scrape folded into the
+   winner file, `i.ytimg.com/vi/<id>/hqdefault.jpg` per row (the id off the row's URL),
+   into that same folder.
+   Then pick the cage whose mechanism matches each title's claim: a method claim
+   takes the annotated chart, a receipt claim takes a proof cage, a blunt one-liner
+   takes the quote card. Three different cages is the target, not a gate that can
+   block the run: when two claims match the same cage, the second takes that cage's
+   nearest neighbour by mechanism and the choice is noted in the build log. When the
+   winner file's described thumbnail matches no cage, distill it into a new cage per
+   the cage file's grow rule before pairing; never force a claim into a
+   mismatched cage. Face rule: the receipt-only claim can honestly go face-free;
+   process and authority claims keep
+   the founder's face. When the founder's proof cannot be shown verbatim (client
+   confidentiality), the proof surface is a redacted REAL UI (blur the names, keep
+   the real chrome), never a painted scene. **Consent:** a proof asset showing an
+   identifiable person who is not the founder does not enter beat 4 without the
+   founder confirming written release for public use. Unconfirmed means the pair is
+   blocked-on-assets, the same route as a missing screenshot, never blurred and
+   shipped.
+2. **Bases.** One image-model call per pair through the endpoint read item 7 verified,
+   face refs from `squad/face/` plus the cage's reference thumbnail as the
+   layout-and-scale anchor. The reference anchors LAYOUT and SCALE only; the prompt
+   names the founder's niche subject for every content element (Cage 2's tool icon
+   becomes this niche's tool or prop), so nothing from the reference's niche bleeds
+   into the base. Element sizes stated in percent of frame. "No words, no
+   letters, no numbers anywhere" in every prompt. The base prompt renders EVERY zone
+   beat 4 composites as EMPTY, named off the paired cage's own geometry: the proof
+   device, the proof zone, the quote card, badges, pills, list panels, straight
+   arrows. Worked example: a Cage 3 or Cage 4 base renders a blank screen and a blank
+   receipt zone and the real screenshot lands in beat 4; a Cage 5 base leaves the card
+   area as empty ground, never a painted card.
+3. **Type.** The mechanical layers first (panels, badges, pills, arrows: built in
+   code, crisp, never generated), then the text. The proof surface is one of these
+   mechanical layers: a REAL file from the bank's PROOF-ASSET LIST composited in code
+   onto the base's empty zone, never generated. **If the thing the claim is about
+   appears in the image, it is a real file, composited.** That covers any proof
+   surface, not screens alone: a screen, a body, a physical result, a room, a piece of
+   equipment. Generating one is fabricated proof and banned. Text is
+   never generated. Composite at 2x then downscale. The compositing stack is Python
+   Pillow, installed venv-safe (`python3 -m venv .venv && .venv/bin/pip install
+   pillow`; a bare `pip install` fails on a managed macOS Python), and every
+   compositing script runs with `.venv/bin/python`, never a bare `python3`. No
+   `python3` at all on this computer (`python3 --version` fails) marks the pairs
+   blocked-on-tooling, the same route as a missing image tool. Fonts: Inter
+   Black always, plus whichever fonts the paired cages name (Permanent Marker for
+   Cage 4's qualifier, Caveat for Cage 1's handwritten labels), all free from
+   Google's own font repo. Fetch them once per repo into `squad/fonts/` and reuse
+   them every week after:
 
-The quality tier is that call on `https://fal.run/fal-ai/gemini-3-pro-image-preview/edit`. The payload file, written by a script rather than by hand, holds `{"prompt": "<the base prompt>", "image_urls": ["<face ref>", "<cage reference>"], "image_size": {"width": 1280, "height": 720}}`; each entry is a public URL or a local file as a data URI. Downscale every face ref to 1024px on its long edge first (`sips -Z 1024 squad/face/face-01.jpg` on macOS). `images[0].url` is the base; download it into the run's thumbs folder.
+   ```
+   mkdir -p squad/fonts
+   curl -sL -o squad/fonts/Inter.ttf \
+     'https://github.com/google/fonts/raw/main/ofl/inter/Inter%5Bopsz,wght%5D.ttf'
+   curl -sL -o squad/fonts/PermanentMarker-Regular.ttf \
+     'https://github.com/google/fonts/raw/main/apache/permanentmarker/PermanentMarker-Regular.ttf'
+   curl -sL -o squad/fonts/Caveat.ttf \
+     'https://github.com/google/fonts/raw/main/ofl/caveat/Caveat%5Bwght%5D.ttf'
+   ```
 
-One call per pair: the face refs plus the cage's reference thumbnail, which anchors LAYOUT and SCALE only. The prompt names the founder's niche subject for every content element (Cage 2's tool icon becomes this niche's tool or prop), so nothing from the reference's niche bleeds in. Element sizes in percent of frame. "No words, no letters, no numbers anywhere" in every prompt. Every zone the type layer composites renders EMPTY, named off the paired cage's geometry: proof device, proof zone, quote card, badges, pills, list panels, straight arrows.
+   Inter and Caveat ship variable-only there (Inter's named instances run Thin to
+   Black, Caveat's are Regular and Bold; Permanent Marker is a plain static file), so
+   loading the file in Pillow and calling `set_variation_by_name` with the weight the
+   cage names is the primary route for those two, not the exception. Verify the
+   rendered Inter is actually Black, not the variable default 400. A missing font blocks the type layer; it never swaps
+   for another. Primary line 14-28% of frame height (100-200px at 720p); under
+   100px fails.
+4. **Check.** Build the 320px grid. Download each paired cage's reference thumbnail
+   (`i.ytimg.com/vi/<video-id>/maxresdefault.jpg`, the id sits in the cage's proof
+   link) and Read both it and the 320px render before you grade anything: a grade
+   on an image you did not view is not a grade. Fix order when a pair loses to its
+   cage's reference: scale first, then contrast, then wording; and if the gap is a missing
+   asset (a face, a real screenshot from the bank's PROOF-ASSET LIST), stop and mark
+   the pair blocked-on-assets instead of iterating on the wrong lever.
 
-**Type.** The mechanical layers first (panels, badges, pills, arrows, built in code, never generated), then the text. The proof surface is one of those layers, a REAL file composited onto the base's empty zone. **If the thing the claim is about appears in the image, it is a real file, composited.** Not screens alone: a body, a physical result, a room, a piece of equipment. Generating one is fabricated proof and banned. Text is never generated. Composite at 2x then downscale.
+**Cost discipline (this section is the one authority on model choice; the cage file
+defers to it).** Default: Seedream v4.5 edit ($0.04/image). The quality tier (Nano
+Banana Pro, $0.15) only when face fidelity fails on the cheap tier or the founder
+asks. One base per pair; regenerate ONLY for a note the founder actually gave, and a
+face drifted from the refs counts as a failure, not a shrug. A full three-pair package
+lands under $1 of image credit; the cost is said and agreed in the one ask at the
+beat-1 gate, before any base is generated.
 
-The stack is Python Pillow, installed venv-safe (`python3 -m venv .venv && .venv/bin/pip install pillow`; a bare `pip install` fails on a managed macOS Python), every compositing script runs with `.venv/bin/python`, and no `python3` at all marks the pairs blocked-on-tooling. Fonts: Inter Black always, plus whatever the paired cages name (Permanent Marker for Cage 4's qualifier, Caveat for Cage 1's handwritten labels), fetched once per repo into `squad/fonts/`:
+## The review gate (beat 6)
 
-```
-mkdir -p squad/fonts
-curl -sL -o squad/fonts/Inter.ttf \
-  'https://github.com/google/fonts/raw/main/ofl/inter/Inter%5Bopsz,wght%5D.ttf'
-curl -sL -o squad/fonts/PermanentMarker-Regular.ttf \
-  'https://github.com/google/fonts/raw/main/apache/permanentmarker/PermanentMarker-Regular.ttf'
-curl -sL -o squad/fonts/Caveat.ttf \
-  'https://github.com/google/fonts/raw/main/ofl/caveat/Caveat%5Bwght%5D.ttf'
-```
+Show the three pairs as one sheet (thumbnail + its title, together, because they are
+bought together), each pair with its five checks passed or failed beside it. Write
+the sheet as an HTML or image contact sheet at
+`squad/week/thumbs/<date>/review-sheet.html` (or `.png`) and tell the founder to open
+it the way their OS does (macOS `open`, Windows `explorer`, Linux `xdg-open`, each
+followed by `squad/week/thumbs/<date>/review-sheet.html`), then take
+their notes; never review off bare file paths. This gate
+owns the IMAGES; a title-wording note here is absorbed into the type layer, and only
+a claim change routes back through beat 2. Change exactly what the founder names; a
+note about one pair never touches another. Repeat until they say lock.
 
-Inter and Caveat ship variable-only: load the file in Pillow, call `set_variation_by_name` with the weight the cage names, and verify the rendered Inter is Black, not the default 400. A missing font blocks the type layer; it never swaps for another. Primary line 14-28% of frame height (100-200px at 720p); under 100px fails.
+## The output (one file plus the images)
 
-**Check.** Build the 320px grid. Download each paired cage's reference thumbnail (`i.ytimg.com/vi/<video-id>/maxresdefault.jpg`, the id sits in the cage's proof link) and Read both it and the 320px render before you grade. Losing to the reference, fix in this order: scale, contrast, wording. When the gap is a missing asset (a face, a real screenshot from the proof-asset list), stop and mark the pair blocked-on-assets.
+On the default entry, `squad/week/<date>-package.md` (REPACKAGE writes
+`<date>-repackage.md` instead, per that section): the three locked pairs in a table,
+every claim's receipt named, the five-check sheet, the build log (which cage, which
+model, what each revision changed), and the revision variants: whatever unpicked
+images the revision rounds actually produced, kept for a CTR swap. (The two sub pairs
+are the test's other two slots, not spares; the revision variants are spare IMAGES.)
+Revision variants are a
+byproduct, never a reason to generate extra images; when nothing was left over, write
+"none."
 
-**Cost, the one authority on model choice; the cage file defers to it.** Seedream v4.5 edit ($0.04/image) is the default. The quality tier (Nano Banana Pro, $0.15) only when face fidelity fails on the cheap tier or the founder asks. One base per pair, and regenerate ONLY for a note the founder actually gave; a face drifted from the refs is a failure, not a shrug. Agreed in the one ask before any base is generated.
-
-## The review sheet, and the lock
-
-Show the 3 pairs as one sheet, thumbnail and title together, each pair with its 5 checks passed or failed beside it. Write the sheet to `squad/week/thumbs/<date>/review-sheet.html` (or `.png`) and tell the founder to open it the way their OS does (macOS `open`, Windows `explorer`, Linux `xdg-open`, each followed by that path). Never review off bare file paths.
-
-This stop owns the IMAGES. A title-wording note here is absorbed into the type layer, and only a claim change routes back through Pair. Change exactly what the founder names; a note about one pair never touches another. Repeat until they say lock.
-
-## The package file
-
-On the lock, write `squad/week/<date>-package.md`: the 3 locked pairs in a table, every claim's receipt named, the 5-check sheet, the build log (which cage, which model, what each revision changed), and the revision variants, whatever unpicked images the revision rounds produced, kept for a CTR swap. Nothing left over writes "none".
-
-It opens with the 2 join lines the whole chain keys on, both required, verbatim as its first 2 header lines:
+The file opens with the two join lines the whole chain keys on, both required,
+verbatim as its first two header lines:
 
     episode: <episodes-root>/epNN/
     source winner: <date>-winner.md
 
-`<episodes-root>` is the roots file's episodes path, default `squad/episodes/`. `epNN` is the episode folder this video feeds: the first run names `ep01`, every later run the next number after the highest `epNN` folder that exists. Create that empty folder when writing the package file. `source winner:` names the winner file by exact filename. The script and deck runs key on these 2 lines, never on the date, so a package missing either is unfinished. The images sit in `squad/week/thumbs/<date>/` (this run's date, so weekly runs never overwrite), finals plus 1280x720 upload copies.
+`<episodes-root>` is the roots file's episodes path, `epNN` the episode folder this
+video feeds (`ep01`, `ep02`...), and `source winner:` the winner file by exact
+filename. The script and deck runs key on those two lines (the script takes the latest
+package, then reads ITS named winner; never inferred by date), so a package file
+missing either key is unfinished. Create the empty `epNN`
+folder when writing the package file, so the numbering rule counts what exists. No
+roots file = the episodes root is `squad/episodes/`; the first run names `ep01`,
+every later run the next number after the highest existing `epNN` folder. The
+thumbnail files sit in `squad/week/thumbs/<date>/` (the run's date, so weekly
+runs never overwrite each other), finals plus 1280x720 upload copies.
 
-**The TEST line, one line, right under the 3 pairs.** The founder reads this file at upload, weeks from now, so the instruction lives in it: "Upload with the main pair, then Studio > Test & Compare > add all 3 pairs, title and thumbnail together. YouTube decides on watch time and answers in a few days to 2 weeks." When the video is one Test & Compare excludes (a Short, a scheduled live, an un-converted Premiere, private, made-for-kids, 18+), or the channel has no advanced features yet, the line says that instead: ship the main pair, hold the 2 subs, and swap by hand after 7 days against this channel's own trailing median.
+**The TEST line, one line, right under the three pairs.** The package file is what the
+founder has open at upload, weeks after this run, so it carries the instruction there:
+"Upload with the main pair, then Studio > Test & Compare > add all 3 pairs, title and
+thumbnail together. YouTube decides on watch time and answers in a few days to 2
+weeks." When the video is one Test & Compare excludes (a Short, a scheduled live, an
+un-converted Premiere, private, made-for-kids, 18+), or the channel has no advanced
+features yet, the line says that instead: ship the main pair, hold the two subs, and
+swap by hand after 7 days against this channel's own trailing median.
 
-**A package file already there, marked title-only.** The Money Driven Script writes one when it runs first with nothing but a locked title. Adopt it: overwrite that file in place with the full package, keep its `episode:` and `source winner:` lines exactly as they read, drop the title-only mark. Never a second `epNN` for a video that already has one, never 2 package files for one episode.
+**A package file already sitting there, marked title-only.** The Money Driven Script writes
+one when it runs first with nothing but a locked title, so this run ADOPTS it rather
+than working beside it: overwrite that file in place with the full package, keep its
+`episode:` and `source winner:` lines exactly as they read, and drop the title-only
+mark. Never allocate a second `epNN` for a video that already has one, and never leave
+two package files for one episode.
 
-Description, chapters and tags belong to the publish step, not here.
+Description, chapters, and tags are NOT this skill's job: chapters need the finished
+cut, so they belong to the publish step.
 
 ## Hand over
 
-The 3 pairs are locked and the package names its episode folder and its source winner. Writing the script is the Money Driven Script's job, and that run writes the hook to this main title word for word. Run `/the-money-driven-script`. Not installed yet? Say so plainly and hand the founder the locked main title.
+The three pairs are locked and the package file names its episode folder and
+its source winner. The script is the Money Driven Script's job: it reads this
+package's main title and writes the hook to it, word for word. Run
+`/the-money-driven-script`. Not installed yet? Say so plainly and hand the founder
+the locked main title, since the hook is written to that promise either way.
 
-## The 2 side entries
-
-### Repackage
-
-A published video that ran under the channel's own trailing median after 48 to 72 hours gets the same cut a new face. The founder pastes the video URL, its views, impressions and CTR from Studio's Reach tab, and the view counts of their last 10 long-form uploads from the Content tab.
-
-Compute the trailing median the way the Winning Scrape computes a channel baseline, its exclusions included: comparable long-form uploads only, the judged video excluded, bought-reach spikes excluded. At 8 or 9 comparable uploads, say so and use the median of what exists, flagged as the weaker read.
-
-3 refusals, and **refuse rather than label:** a caveat printed next to a number does not stop a founder re-facing a video on noise, and waiting costs nothing.
-
-- **Under 8 comparable long-form uploads:** print `baseline uncomputable, N uploads` and decline.
-- **A window that straddles 2026-08-24:** print `baseline uncomputable, window straddles 2026-08-24` and decline, because YouTube changed what it counts as a view on that date and a median across it mixes 2 definitions of the word.
-- **Under about 500 impressions:** the CTR is noise. Wait, and say how many more impressions the video needs.
-
-The run: show the trigger math first (the video's multiple against the channel's own median), rerun the 5 checks on the EXISTING title and thumbnail and name which ones fail, then build 1 new pair on the same cut, Pair through to the lock. SMALL-CHANNEL CTR CALIBRATION runs here as the 6th check: judge the published CTR against this channel's own baseline, never the absolute CTR of giant channels. The sub titles from the original package are the first candidates; when no original title survives the 5 checks, run the titles step once, with its stop, first.
-
-It writes `squad/week/<date>-repackage.md`, one pair, opening with a header line naming the published video URL it replaces. No `epNN` folder, since the cut already shipped. A repackage file is never the Money Driven Script's input: that run takes the latest `<date>-package.md`.
-
-### Your own winners
-
-When Test & Compare has picked and the founder says which pair won ("pair 2 won", "the main pair won", with the video's title or its episode folder), write one row and stop. Find the package file whose `episode:` line names that folder, or whose main title matches the one they gave, take the pair they named, and append one row under a `## Your own winners` heading in `squad/lane.md`. The heading and its table are created on the first such row. The 5 cells:
-
-    date · episode · title shape · thumbnail cage · numbers
-
-The title shape is the skeleton the winning title was cloned from, with the swapped slot in square brackets, so next week can clone it again. The cage is the winning image's cage, by its name in the founder's cage file. The numbers are what the founder reported, as given; nothing reported writes "none reported". Nothing else in the lane file moves, and the row prints back. A pair the package file does not hold, or a title matching no package, is one question back to the founder, never a guess. From week 2 the titles step reads this row first.
+Close, word for word: "Packaged. Writing it is the Money Driven Script's job. Run
+/the-money-driven-script. This skill stops here."
 
 ## Rules
 
-- Short messages. A header, then bullets or a table, never a wall.
+- Every message to the founder is scannable: a short header, then bullets or a
+  table. Operator maps, price bands, and gate grades go in TABLES; findings go in
+  short bullets with the key number in bold. Never a wall of paragraphs. The
+  founder reads while deciding, not studying.
 - The winner's shape earned the views; clone it, never improve it unasked.
 - Buyer's words only; check the winner file's comment mining before wording anything.
-- Clean wins. Bright grounds, flat color, real UI proof. Dark-with-glow reads as AI slop and dies on sight.
+- Clean wins. Bright grounds, flat color, real UI proof. Dark-with-glow reads as AI
+  slop and dies on sight.
 - Faces come only from `squad/face/`.
-- Never a menu at a stop: present built things and let the founder react to something real.
+- Never a menu at the review gates: present built things and let the founder react to
+  something real. (Beat 1's three titles are not a menu; all three ship as the test's
+  slots, and the founder edits rather than chooses.)
